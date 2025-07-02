@@ -209,7 +209,7 @@ function Home() {
               rel="noopener noreferrer"
               className="inline-block px-6 sm:px-8 py-3 sm:py-4 rounded-2xl border border-white/10 hover:bg-white/10 transition font-semibold text-sm sm:text-base"
             >
-              Message Us on IG →
+              Message us on Instagram →
             </a>
           </AnimateIn>
         </section>

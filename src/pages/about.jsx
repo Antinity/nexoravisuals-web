@@ -1,11 +1,12 @@
 import BackgroundGlow from "../components/BackgroundGlow";
 //eslint-disable-next-line
 import { motion } from "framer-motion";
+import AnimateIn from "../components/AnimateIn";
 
 const pageVariants = {
   initial: {
     opacity: 1,
-    y: '10%',
+    y: "10%",
     filter: "blur(20px)",
   },
   animate: {
@@ -19,7 +20,7 @@ const pageVariants = {
   },
   exit: {
     opacity: 1,
-    y: '-10%',
+    y: "-10%",
     filter: "blur(20px)",
     transition: {
       duration: 0.4,
@@ -36,13 +37,53 @@ export default function About() {
       animate="animate"
       exit="exit"
     >
-      <div className="min-h-screen flex flex-col items-center justify-center bg-background text-white font-sans relative z-0">
-        <header className="mb-10 text-center">
-          <h1 className="text-5xl font-bold m-0">about</h1>
-          <p className="text-2xl mt-4">under construction</p>
+      <div className="relative min-h-screen bg-background text-white overflow-hidden z-0 py-24 px-4 text-center">
+        <AnimateIn delay={0.2}>
+          <h1 className="text-5xl font-bold">about</h1>
+        </AnimateIn>
 
-          <BackgroundGlow size={400} blurRadius={200} />
-        </header>
+        <AnimateIn delay={0.4}>
+          <div className="mt-12 max-w-3xl mx-auto text-white/80 space-y-6 text-base sm:text-xl leading-relaxed text-left">
+            <p>
+              Nexora Visuals is all about helping creators get exposure by
+              making content that actually resonates with viewers. We combine
+              clean 3D animations, scroll-stopping edits, and addictive 3D hooks
+              to get your audience watching.
+            </p>
+
+            <p>
+              We can help you turn long videos into short bangers, as well as
+              animate 3D objects and UI, accompanies your concept; simple or
+              complex we can turn your ideas into real life. We've worked with
+              creators in Marian niches from finance to gaming, YouTube, TikTok,
+              podcasts, you name it we have done.
+            </p>
+
+            <p>
+              Our service piece is not just editing, we tell stories through
+              motion, we produce content that perform & design that let's the
+              visuals shine to separate you from the rest.
+            </p>
+
+            <p>
+              Our clients say we've gone way beyond expectations, and they are
+              correct.
+            </p>
+
+            <p>
+              So if you are looking for content that looks fire and has the fire
+              performance, message us anytime. Slide into the DM's anytime{" "}
+            </p>
+          </div>
+        </AnimateIn>
+
+        <BackgroundGlow
+          y="90%"
+          size={800}
+          blurRadius={200}
+          color="#553F99"
+          animated
+        />
       </div>
     </motion.div>
   );

@@ -4,8 +4,8 @@ import { Routes, Route, Link } from "react-router-dom";
 const Navbar = () => {
   const links = [
     { name: "About", href: "/about" },
-    { name: "Contact", href: "/contact" },
     { name: "Portfolio", href: "/portfolio" },
+    { name: "Contact", href: "/contact" },
   ];
 
   return (
