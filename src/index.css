@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+}
+
+@theme {
+  --color-foreground: rgba(255, 255, 255, 0.8);
+  --color-background: #0f0f0f;
+}
+
+.radiantSphereAnim {
+  animation: radiantSphereAnim 10s ease-in-out infinite;
+}
+
+@keyframes radiantSphereAnim {
+  0% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
