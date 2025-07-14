@@ -29,7 +29,7 @@ const Footer = () => {
         {/* SOCIALS */}
         <div className="flex gap-4 text-zinc-400 mt-2">
           <a
-            href="https://instagram.com/nexoravisuals"
+            href="https://www.instagram.com/nexora_visualss/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white transition"
