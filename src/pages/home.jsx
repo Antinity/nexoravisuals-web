@@ -174,7 +174,6 @@ function Home() {
               "🎬 Longform YouTube",
               "🔥 Shorts / Reels / TikToks",
               "📈 Finance & Business",
-              "🎮 Gaming & Esports",
               "🎙️ Podcasts & Interviews",
               "🎭 Story / Skits",
               "🤝 Brand Content",
@@ -189,7 +188,7 @@ function Home() {
           </div>
           <AnimateIn>
             <p className="text-zinc-400 mt-6">
-              got a weird niche? dm us. we’ll make it work 💀
+               If you have a different niche in mind, message us and we will see what we can do.
             </p>
           </AnimateIn>
         </section>

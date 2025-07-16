@@ -5,25 +5,20 @@ const Footer = () => {
   return (
     <footer className="bg-background border-t border-white/10 px-6 py-20 text-white relative backdrop-blur-md">
       <div className="max-w-6xl mx-auto flex flex-col items-center text-center gap-8">
-        {/* BIG NAME */}
-        <h1 className="text-5xl sm:text-[240px] font-bold tracking-tight text-white/90">
-          NEXORA
-        </h1>
-
         {/* LINKS */}
         <div className="flex flex-wrap justify-center gap-6 text-zinc-400 text-sm">
-            <Link to="/" className="hover:text-white transition">
-                Home
-            </Link>
-            <Link to="/about" className="hover:text-white transition">
-                About
-            </Link>
-            <Link to="/portfolio" className="hover:text-white transition">
-                Portfolio
-            </Link>
-            <Link to="/contact" className="hover:text-white transition">
-                Contact
-            </Link>
+          <Link to="/" className="hover:text-white transition">
+            Home
+          </Link>
+          <Link to="/about" className="hover:text-white transition">
+            About
+          </Link>
+          <Link to="/portfolio" className="hover:text-white transition">
+            Portfolio
+          </Link>
+          <Link to="/contact" className="hover:text-white transition">
+            Contact
+          </Link>
         </div>
 
         {/* SOCIALS */}
@@ -53,6 +48,11 @@ const Footer = () => {
             </a>
           </p>
         </p>
+
+        {/* BIG NAME */}
+        <h1 className="text-5xl sm:text-[240px] text-white/90 font-brand">
+          NEXORA VISUALS
+        </h1>
       </div>
     </footer>
   );

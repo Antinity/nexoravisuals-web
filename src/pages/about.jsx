@@ -39,7 +39,7 @@ export default function About() {
     >
       <div className="relative min-h-screen bg-background text-white overflow-hidden z-0 py-24 px-4 text-center">
         <AnimateIn delay={0.2}>
-          <h1 className="text-5xl font-bold">about</h1>
+          <h1 className="text-5xl font-bold">About us</h1>
         </AnimateIn>
 
         <AnimateIn delay={0.4}>
@@ -55,7 +55,7 @@ export default function About() {
               We can help you turn long videos into short bangers, as well as
               animate 3D objects and UI, accompanies your concept; simple or
               complex we can turn your ideas into real life. We've worked with
-              creators in Marian niches from finance to gaming, YouTube, TikTok,
+              creators in many niches from finance to YouTube, TikTok,
               podcasts, you name it we have done.
             </p>
 

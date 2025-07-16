@@ -57,7 +57,7 @@ const email = (e) => {
         <AnimateIn delay={0.2}>
           <h1 className="text-5xl font-bold">Let's Talk</h1>
           <p className="text-zinc-400 mt-4 max-w-xl mx-auto text-lg">
-            Want scroll-stopping visuals? We’re just a message away.
+            Want scroll-stopping visuals? You’re just a message away.
           </p>
         </AnimateIn>
 
