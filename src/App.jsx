@@ -6,6 +6,7 @@ import Home from "./pages/home";
 import Portfolio from "./pages/portfolio";
 import About from "./pages/about";
 import Contact from "./pages/contact";
+import Workflow from "./pages/workflow";
 
 const App = () => {
   const location = useLocation();
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/workflow" element={<Workflow />} />
       </Routes>
     </AnimatePresence>
   );

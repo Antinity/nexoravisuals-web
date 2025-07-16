@@ -16,6 +16,9 @@ const Footer = () => {
           <Link to="/portfolio" className="hover:text-white transition">
             Portfolio
           </Link>
+          <Link to="/workflow" className="hover:text-white transition">
+            How we operate
+          </Link>
           <Link to="/contact" className="hover:text-white transition">
             Contact
           </Link>
@@ -46,6 +49,9 @@ const Footer = () => {
             >
               Antinity
             </a>
+            <p className="text-xs text-zinc-500 mt-2">
+              We don’t track you. There are no cookies this time.
+            </p>
           </p>
         </p>
 

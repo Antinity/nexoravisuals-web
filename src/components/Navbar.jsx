@@ -12,7 +12,11 @@ const Navbar = () => {
     <nav className="fixed w-full z-10 bg-black/20 backdrop-blur-3xl">
       <div className="container mx-auto text-foreground flex items-center justify-between px-4 py-2 ">
         <Link to="/">
-          <img src="/logo.png" alt="Logo" className="h-12 mr-8 hover:scale-110 transition" />
+          <img
+            src="/logo.png"
+            alt="Logo"
+            className="h-12 mr-8 hover:scale-110 transition"
+          />
         </Link>
 
         <div className="flex gap-2">
