@@ -3,6 +3,7 @@ import BackgroundGlow from "../components/BackgroundGlow";
 import { motion } from "framer-motion";
 import AnimateIn from "../components/AnimateIn";
 import WorkflowTimeline from "../components/WorkflowTimeline";
+import { useEffect } from "react";
 
 const pageVariants = {
   initial: {
@@ -31,6 +32,9 @@ const pageVariants = {
 };
 
 export default function Workflow() {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
 
   return (
     <motion.div
@@ -51,16 +55,24 @@ export default function Workflow() {
         <BackgroundGlow
           y="20%"
           size={800}
-          blurRadius={200}
-          color="#553F99"
+          blurRadius={400}
+          color="#312459"
+          animated
+        />
+
+        <BackgroundGlow
+          y="60%"
+          size={800}
+          blurRadius={400}
+          color="#312459"
           animated
         />
 
         <BackgroundGlow
           y="90%"
           size={800}
-          blurRadius={200}
-          color="#553F99"
+          blurRadius={400}
+          color="#312459"
           animated
         />
       </div>
