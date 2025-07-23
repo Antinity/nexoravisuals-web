@@ -90,7 +90,7 @@ export default function Portfolio() {
             {shortFiles.map((file, i) => (
               <AnimateIn delay={i * 0.1} key={i}>
                 <video
-                  src={`/${file}`}
+                  src={`shorts/${file}`}
                   controls
                   className="w-full aspect-[9/16] rounded-2xl border border-white/10 shadow-xl"
                 />
