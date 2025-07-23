@@ -4,6 +4,8 @@ import AnimateIn from "../components/AnimateIn";
 //eslint-disable-next-line
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
+
 
 const pageVariants = {
   initial: {
@@ -32,6 +34,9 @@ const pageVariants = {
 };
 
 function Home() {
+    useEffect(() => {
+      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    }, []);
   return (
     <motion.div
       variants={pageVariants}

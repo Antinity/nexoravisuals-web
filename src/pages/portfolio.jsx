@@ -3,6 +3,7 @@ import BackgroundGlow from "../components/BackgroundGlow";
 import { motion } from "framer-motion";
 import AnimateIn from "../components/AnimateIn";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 const pageVariants = {
   initial: {
@@ -33,6 +34,9 @@ const pageVariants = {
 const videoFiles = ["1.mp4", "2.mp4", "3.mp4", "4.mp4", "5.mp4", "6.mp4"];
 
 export default function Portfolio() {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   return (
     <motion.div
       variants={pageVariants}

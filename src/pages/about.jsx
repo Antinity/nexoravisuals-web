@@ -2,6 +2,7 @@ import BackgroundGlow from "../components/BackgroundGlow";
 //eslint-disable-next-line
 import { motion } from "framer-motion";
 import AnimateIn from "../components/AnimateIn";
+import { useEffect } from "react";
 
 const pageVariants = {
   initial: {
@@ -30,6 +31,9 @@ const pageVariants = {
 };
 
 export default function About() {
+    useEffect(() => {
+      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    }, []);
   return (
     <motion.div
       variants={pageVariants}
