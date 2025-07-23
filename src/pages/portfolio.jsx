@@ -32,6 +32,7 @@ const pageVariants = {
 };
 
 const videoFiles = ["1.mp4", "2.mp4", "3.mp4", "4.mp4", "5.mp4", "6.mp4"];
+const shortFiles = ["1.mp4", "2.mp4", "3.mp4", "4.mp4"];
 
 export default function Portfolio() {
   useEffect(() => {
@@ -52,30 +53,54 @@ export default function Portfolio() {
           </p>
         </AnimateIn>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-6xl mx-auto mt-12">
-          <AnimateIn delay={0}>
-            <div className="lg:col-span-2">
-              <video
-                src="/1.mp4"
-                controls
-                className="w-full aspect-video rounded-2xl border border-white/10 shadow-xl"
-              />
-            </div>
+        {/* Longform Section */}
+        <section className="mt-16">
+          <AnimateIn>
+            <h2 className="text-3xl font-bold mb-6 text-center">Longform Videos</h2>
           </AnimateIn>
-
-          {videoFiles.slice(1).map((file, i) => (
-            <AnimateIn delay={(i + 1) * 0.1} key={i}>
-              <video
-                src={`/${file}`}
-                controls
-                className="w-full aspect-video rounded-2xl border border-white/10 shadow-xl"
-              />
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-6xl mx-auto">
+            <AnimateIn delay={0}>
+              <div className="lg:col-span-2">
+                <video
+                  src="/1.mp4"
+                  controls
+                  className="w-full aspect-video rounded-2xl border border-white/10 shadow-xl"
+                />
+              </div>
             </AnimateIn>
-          ))}
-        </div>
 
+            {videoFiles.slice(1).map((file, i) => (
+              <AnimateIn delay={(i + 1) * 0.1} key={i}>
+                <video
+                  src={`/${file}`}
+                  controls
+                  className="w-full aspect-video rounded-2xl border border-white/10 shadow-xl"
+                />
+              </AnimateIn>
+            ))}
+          </div>
+        </section>
+
+        {/* Shorts Section */}
+        <section className="mt-24">
+          <AnimateIn>
+            <h2 className="text-3xl font-bold mb-6 text-center">Shorts</h2>
+          </AnimateIn>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
+            {shortFiles.map((file, i) => (
+              <AnimateIn delay={i * 0.1} key={i}>
+                <video
+                  src={`/${file}`}
+                  controls
+                  className="w-full aspect-[9/16] rounded-2xl border border-white/10 shadow-xl"
+                />
+              </AnimateIn>
+            ))}
+          </div>
+        </section>
+
+        {/* CTA */}
         <AnimateIn delay={0.7}>
-          {/* CTA */}
           <section className="py-24 text-center px-4 text-white">
             <AnimateIn>
               <h2 className="text-5xl font-bold mb-4">
@@ -88,8 +113,6 @@ export default function Portfolio() {
               </p>
               <Link to="/workflow">
                 <div
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="inline-block px-6 sm:px-8 py-3 sm:py-4 rounded-2xl border border-white/10 hover:bg-white/10 transition font-semibold text-sm sm:text-base"
                 >
                   See our workflow →
