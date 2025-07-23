@@ -2,6 +2,7 @@ import BackgroundGlow from "../components/BackgroundGlow";
 //eslint-disable-next-line
 import { motion } from "framer-motion";
 import AnimateIn from "../components/AnimateIn";
+import { Link } from "react-router-dom";
 
 const pageVariants = {
   initial: {
@@ -73,18 +74,23 @@ export default function Portfolio() {
           {/* CTA */}
           <section className="py-24 text-center px-4 text-white">
             <AnimateIn>
-              <h2 className="text-5xl font-bold mb-4">Now that we have your <span className="text-green-400">attention</span>...</h2>
+              <h2 className="text-5xl font-bold mb-4">
+                Now that we have your{" "}
+                <span className="text-green-400">attention</span>...
+              </h2>
               <p className="text-zinc-300 mb-8 max-w-sm mx-auto">
-                Let us demonstrate what your content will look like when you start working with us.
+                Let us demonstrate what your content will look like when you
+                start working with us.
               </p>
-              <a
-                href="https://www.instagram.com/nexora_visualss/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block px-6 sm:px-8 py-3 sm:py-4 rounded-2xl border border-white/10 hover:bg-white/10 transition font-semibold text-sm sm:text-base"
-              >
-                See our workflow →
-              </a>
+              <Link to="/workflow">
+                <div
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-6 sm:px-8 py-3 sm:py-4 rounded-2xl border border-white/10 hover:bg-white/10 transition font-semibold text-sm sm:text-base"
+                >
+                  See our workflow →
+                </div>
+              </Link>
             </AnimateIn>
           </section>
         </AnimateIn>

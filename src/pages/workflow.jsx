@@ -31,6 +31,7 @@ const pageVariants = {
 };
 
 export default function Workflow() {
+
   return (
     <motion.div
       variants={pageVariants}
@@ -43,9 +44,17 @@ export default function Workflow() {
           <h1 className="text-5xl font-bold">How we operate</h1>
         </AnimateIn>
 
-        <AnimateIn delay={0.4}>
-          <WorkflowTimeline />
-        </AnimateIn>
+        <WorkflowTimeline />
+
+        {/* <AnimateIn delay={0.4}></AnimateIn> */}
+
+        <BackgroundGlow
+          y="20%"
+          size={800}
+          blurRadius={200}
+          color="#553F99"
+          animated
+        />
 
         <BackgroundGlow
           y="90%"

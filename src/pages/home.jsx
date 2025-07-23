@@ -64,7 +64,7 @@ function Home() {
                     Work with us →
                   </a>
                   <Link
-                    to={"/workflow"}
+                    to={"/portfolio"}
                     className="px-6 py-3 sm:px-8 sm:py-4 border-2 border-white/10 hover:bg-white/10 rounded-2xl text-sm sm:text-base font-semibold transition"
                   >
                   See our work →
