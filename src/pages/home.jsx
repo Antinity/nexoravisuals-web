@@ -50,10 +50,7 @@ function Home() {
             <AnimateIn delay={0.2}>
               <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 pt-24 sm:pt-32">
                 <h1 className="text-4xl sm:text-6xl font-bold leading-tight">
-                  Let your <span className="text-yellow-400">content</span>{" "}
-                  breathe.
-                  <br />
-                  We’ll make it <span className="text-green-500">move!</span>
+                  Your journey starts <span className="text-yellow-400">here</span>{" "}
                 </h1>
 
                 <p className="text-lg sm:text-xl text-white/70 mt-4 max-w-xl">
