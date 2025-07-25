@@ -76,7 +76,7 @@ export default function About() {
 
             <p>
               So if you are looking for content that looks fire and has the fire
-              performance, message us anytime. Slide into the DM's anytime{" "}
+              performance, message us anytime.
             </p>
           </div>
         </AnimateIn>
