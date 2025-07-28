@@ -53,7 +53,7 @@ const data = [
         content: (
             <p className="text-lg text-neutral-200">
                 <span className="block md:hidden">We edit the first 30–60 seconds to be highly engaging and optimized for retention.</span>
-                <span className="hidden md:block">We dedicate extra time to the first 30–60 seconds of the video — this is your chance to grab attention. We edit this part with high energy, strong visuals, and snappy pacing to make sure viewers don’t click off and are pulled into the content immediately.</span>
+                <span className="hidden md:block">We dedicate extra time to the first 30–60 seconds of the video, this is your chance to grab attention. We edit this part with high energy, strong visuals, and snappy pacing to make sure viewers don’t click off and are pulled into the content immediately.</span>
             </p>
         ),
     },
@@ -62,7 +62,7 @@ const data = [
         content: (
             <p className="text-lg text-neutral-200">
                 <span className="block md:hidden">Visual animations are added to maintain interest and keep viewers from dropping off.</span>
-                <span className="hidden md:block">To keep your video from feeling flat or repetitive, we introduce dynamic animations. These can include motion graphics, transitions, popups, and zooms — anything to keep things moving and entertaining without being overwhelming or distracting.</span>
+                <span className="hidden md:block">To keep your video from feeling flat or repetitive, we introduce dynamic animations. These can include motion graphics, transitions, popups, and zooms, anything to keep things moving and entertaining without being overwhelming or distracting.</span>
             </p>
         ),
     },
@@ -80,7 +80,7 @@ const data = [
         content: (
             <p className="text-lg text-neutral-200">
                 <span className="block md:hidden">Completed project is shared with the client, usually via a Google Drive link.</span>
-                <span className="hidden md:block">Once everything’s done, the full edited video is exported in high quality and sent to you — usually through a Google Drive link. You’ll be able to preview it, test it on your platform, and make sure it looks and sounds exactly how you imagined.</span>
+                <span className="hidden md:block">Once everything’s done, the full edited video is exported in high quality and sent to you, usually through a Google Drive link. You’ll be able to preview it, test it on your platform, and make sure it looks and sounds exactly how you imagined.</span>
             </p>
         ),
     },
@@ -89,7 +89,7 @@ const data = [
         content: (
             <p className="text-lg text-neutral-200">
                 <span className="block md:hidden">If anything feels off, we fix it until the client is fully happy with the result.</span>
-                <span className="hidden md:block">If you’re not fully happy or notice something off, we’ve got you. Just let us know what needs changing — whether it’s a subtitle tweak, audio fix, or scene cut — and we’ll revise it to your liking. No stress, no extra cost, just solid results.</span>
+                <span className="hidden md:block">If you’re not fully happy or notice something off, we’ve got you. Just let us know what needs changing, whether it’s a subtitle tweak, audio fix, or scene cut, and we’ll revise it to your liking. No stress, no extra cost, just solid results.</span>
             </p>
         ),
     },
@@ -98,7 +98,7 @@ const data = [
         content: (
             <p className="text-lg text-neutral-200">
                 <span className="block md:hidden">Once approved, we receive payment and the client uploads the video wherever they want.</span>
-                <span className="hidden md:block">Once you confirm everything looks good, we proceed with the payment based on what was agreed during consultation. After that, the video is fully yours — ready to be posted on YouTube, Instagram, or wherever your audience lives.</span>
+                <span className="hidden md:block">Once you confirm everything looks good, we proceed with the payment based on what was agreed during consultation. After that, the video is fully yours, ready to be posted on YouTube, Instagram, or wherever your audience lives.</span>
             </p>
         ),
     },
