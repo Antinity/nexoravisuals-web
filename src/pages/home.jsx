@@ -59,7 +59,7 @@ function Home() {
 
                 <div className="mt-6 flex gap-4">
                   <a
-                    href="https://www.instagram.com/nexora_visualss/"
+                    href="https://x.com/NexoraVisuals"
                     className="px-6 py-3 sm:px-8 sm:py-4 border-2 border-white/10 hover:bg-white/10 rounded-2xl text-sm sm:text-base font-semibold transition"
                   >
                     Work with us →
@@ -235,12 +235,12 @@ function Home() {
                 Send us a message and let's create something amazing.
               </p>
               <a
-                href="https://www.instagram.com/nexora_visualss/"
+                href="https://x.com/NexoraVisuals"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-6 sm:px-8 py-3 sm:py-4 rounded-2xl border border-white/10 hover:bg-white/10 transition font-semibold text-sm sm:text-base"
               >
-                Message us on Instagram →
+                Message us on X →
               </a>
             </AnimateIn>
           </section>

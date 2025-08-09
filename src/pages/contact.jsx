@@ -69,12 +69,12 @@ const email = (e) => {
         <AnimateIn delay={0.3}>
           <div className="mt-10 flex flex-col sm:flex-row justify-center gap-6">
             <a
-              href="https://www.instagram.com/nexora_visualss/"
+              href="https://x.com/NexoraVisuals"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-6 sm:px-8 py-3 sm:py-4 rounded-2xl border border-white/10 hover:bg-white/10 transition font-semibold text-sm sm:text-base"
             >
-              Message us on Instagram →
+              Message us on X →
             </a>
           </div>
         </AnimateIn>
