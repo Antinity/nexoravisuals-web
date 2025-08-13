@@ -50,11 +50,11 @@ function Home() {
             <AnimateIn delay={0.2}>
               <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 pt-24 sm:pt-32">
                 <h1 className="text-4xl sm:text-6xl font-bold leading-tight">
-                  Your Journey Starts <span className="text-yellow-400">Here</span>{" "}
+                  Turning your viewers into <span className="text-yellow-400">customers</span>{" "}
                 </h1>
 
                 <p className="text-lg sm:text-xl text-white/70 mt-4 max-w-xl">
-                  We make your videos stand out with scroll-stopping visuals.
+                  Helping you make more $$$ through premium / high<br />converting editing services.
                 </p>
 
                 <div className="mt-6 flex gap-4">
